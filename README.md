@@ -1,0 +1,1 @@
+PS E:\Programm\Postgres\14\DBMS\bin> pg_ctl.exe restart -D  "E:\Programm\Postgres\14\Data"
