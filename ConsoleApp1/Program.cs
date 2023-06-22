@@ -6,9 +6,34 @@ namespace ConsoleApp1 {
         static void Main(string[] args) {
 
             // TestDbmsCon();
-            InsertTool();
+            // InsertTool();
+            ReadTools();
             Console.ReadKey();
 
+        }
+
+        private static void ReadTools() {
+            using (NpgsqlConnection con = GetConnection()) {
+                string query = @"SELECT * FROM tool";
+                NpgsqlCommand cmd = new NpgsqlCommand(query, con);
+                con.Open();
+
+                int val;
+                NpgsqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read()) {
+
+                    Console.WriteLine(reader[0].ToString());
+                    Console.WriteLine(reader[1].ToString());
+                    Console.WriteLine(reader[2].ToString());
+                    Console.WriteLine("-------------------------");
+
+                    // val = Int32.Parse(reader[0].ToString());
+                    //do whatever you like
+                }
+
+                con.Close(); //close the current connection
+
+            }
         }
 
         private static void InsertTool() {
