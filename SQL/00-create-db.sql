@@ -1,0 +1,4 @@
+CREATE USER my_tools_owner WITH PASSWORD 'Kswo3J66Ti' NOCREATEDB NOCREATEROLE NOSUPERUSER;
+CREATE DATABASE db_my_tools WITH OWNER=my_tools_owner ENCODING='UTF8' LC_COLLATE='ru_RU.utf8' LC_CTYPE='ru_RU.utf8' TEMPLATE='template0' CONNECTION LIMIT = -1;
+COMMENT ON DATABASE db_my_tools IS 'База данных Мои Инструменты';
+

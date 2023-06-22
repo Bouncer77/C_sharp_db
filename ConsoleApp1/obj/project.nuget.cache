@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "REepExG3pSCJq6y1Y8d3uUhJ/99epQnVdhHXPJyJOd9F8H/l81hUrylwpEMaqPUMx0hEnRRtPkPWuD9SS7FwqA==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\App1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bouncer77\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Bouncer77\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
