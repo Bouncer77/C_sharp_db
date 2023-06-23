@@ -14,7 +14,8 @@ namespace ConsoleApp1 {
 
         private static void ReadTools() {
             using (NpgsqlConnection con = GetConnection()) {
-                string query = @"SELECT * FROM tool";
+                // string query = @"SELECT * FROM tool";
+                string query = @"SELECT * FROM tools_api.ui_get_tools()";
                 NpgsqlCommand cmd = new NpgsqlCommand(query, con);
                 con.Open();
 
@@ -26,9 +27,6 @@ namespace ConsoleApp1 {
                     Console.WriteLine(reader[1].ToString());
                     Console.WriteLine(reader[2].ToString());
                     Console.WriteLine("-------------------------");
-
-                    // val = Int32.Parse(reader[0].ToString());
-                    //do whatever you like
                 }
 
                 con.Close(); //close the current connection
@@ -38,7 +36,7 @@ namespace ConsoleApp1 {
 
         private static void InsertTool() {
             using (NpgsqlConnection con = GetConnection()) {
-                string query = @"INSERT INTO tool (""name"", description) VALUES ('Шуруповерт Makita 2', 'Классная штука этот шурик')";
+                string query = @"INSERT INTO tool (""name"", description) VALUES ('Шуруповерт Makita 3', 'Классная штука этот шурик')";
                 NpgsqlCommand cmd = new NpgsqlCommand(query, con);
                 con.Open();
                 int n = cmd.ExecuteNonQuery();
