@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\App1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "X:\\Projects\\Importo\\C_sharp\\C_sharp_db\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\App1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "X:\\Projects\\Importo\\C_sharp\\C_sharp_db\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\App1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "X:\\Projects\\Importo\\C_sharp\\C_sharp_db\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "E:\\Projects\\App1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "X:\\Projects\\Importo\\C_sharp\\C_sharp_db\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Bouncer77\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\App1\\ConsoleApp1\\obj\\",
+        "outputPath": "X:\\Projects\\Importo\\C_sharp\\C_sharp_db\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bouncer77\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
